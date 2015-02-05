@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02DD45531A838F2B002E6D82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DD45521A838F2B002E6D82 /* main.m */; };
+		02DD455B1A83920A002E6D82 /* Funcionario.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DD455A1A83920A002E6D82 /* Funcionario.m */; };
+		02DD455E1A839219002E6D82 /* Vendedor.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DD455D1A839219002E6D82 /* Vendedor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		02DD454F1A838F2B002E6D82 /* Atividade1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Atividade1; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DD45521A838F2B002E6D82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02DD45591A83920A002E6D82 /* Funcionario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funcionario.h; sourceTree = "<group>"; };
+		02DD455A1A83920A002E6D82 /* Funcionario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Funcionario.m; sourceTree = "<group>"; };
+		02DD455C1A839219002E6D82 /* Vendedor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vendedor.h; sourceTree = "<group>"; };
+		02DD455D1A839219002E6D82 /* Vendedor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vendedor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		02DD45461A838F2B002E6D82 = {
 			isa = PBXGroup;
 			children = (
+				02DD455C1A839219002E6D82 /* Vendedor.h */,
+				02DD455D1A839219002E6D82 /* Vendedor.m */,
+				02DD45591A83920A002E6D82 /* Funcionario.h */,
+				02DD455A1A83920A002E6D82 /* Funcionario.m */,
 				02DD45511A838F2B002E6D82 /* Atividade1 */,
 				02DD45501A838F2B002E6D82 /* Products */,
 			);
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DD45531A838F2B002E6D82 /* main.m in Sources */,
+				02DD455E1A839219002E6D82 /* Vendedor.m in Sources */,
+				02DD455B1A83920A002E6D82 /* Funcionario.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +244,7 @@
 				02DD45581A838F2B002E6D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

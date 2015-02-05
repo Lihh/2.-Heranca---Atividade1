@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Funcionario.h"
+#import "Vendedor.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Vendedor *vend = [[Vendedor alloc] initWithSalarioBase:2300 andComissao:10];
+        
+        [vend definirSalarioBase];
+        [vend obterSalarioBase];
+        [vend obterPagamento];
+        [vend mostrarStatus];
+        
+        
+        
     }
     return 0;
 }
